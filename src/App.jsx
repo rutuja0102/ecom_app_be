@@ -8,7 +8,7 @@ import Signin from './assets/Signin';
 // import Signout from './assets/Signout';
 import Cartitems from './assets/Cartitems';
 import PrivateRoute from './assets/PrivateRoutes';
-import Dashboard from './user/DashBoard';
+import Dashboard from './user/Dashboard';
 import AdminDashboard from './admin/AdminDashboard';
 import CreateCategory from './admin/CreateCategory';
 import CreateProduct from './admin/CreateProduct';
