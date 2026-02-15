@@ -28,7 +28,7 @@ function Home() {
     },[]);
 
     function getAllCategories() {
-        fetch("http://127.0.0.1:6100/category/all-categories").then((res1) => {
+        fetch("https://ecom-app-u73g.onrender.com/category/all-categories").then((res1) => {
           res1.json().then((res2) => {
             console.log(res2);
             setCategories(res2.categories);
@@ -123,3 +123,4 @@ function Home() {
 }
 
 export default Home
+
