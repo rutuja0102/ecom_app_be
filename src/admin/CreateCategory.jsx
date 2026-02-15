@@ -72,7 +72,7 @@ function CreateCategory() {
   }
 
   function handleDelete(id){
-    fetch(`http://127.0.0.1:6100/category/delete-category/${id}`, {
+    fetch(`https://ecom-app-u73g.onrender.com/category/delete-category/${id}`, {
       method: "delete",
       headers: {
         authorization: auth.token,
@@ -154,3 +154,4 @@ function CreateCategory() {
 }
 
 export default CreateCategory;
+
