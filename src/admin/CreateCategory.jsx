@@ -38,7 +38,7 @@ function CreateCategory() {
   }
 
   function getAllCategories() {
-    fetch("https://ecom-app-u73g.onrender.com").then((res1) => {
+    fetch("https://ecom-app-u73g.onrender.com/category/all-categories").then((res1) => {
       res1.json().then((res2) => {
         console.log(res2);
         setCategories(res2.categories);
