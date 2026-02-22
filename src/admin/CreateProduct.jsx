@@ -67,7 +67,7 @@ function CreateProduct() {
           <Col md={9}>
             <Container className="m-4 text-center">
               <h2 className="my-3">Create New Product</h2>
-              <Form className="w-25 mx-auto d-block">
+              <Form className="w-25 mx-auto d-block" onSubmit={addproduct}>
                 <Form.Select
                   aria-label="Default select example"
                   className="mb-3"
@@ -119,7 +119,7 @@ function CreateProduct() {
                     onChange={(e) => setPhoto(e.target.files[0])}
                   />
                 </Form.Group>
-                <Button variant="primary" type="submit" onSubmit={addproduct}>
+                <Button variant="primary" type="submit">
                   Submit
                 </Button>
               </Form>
